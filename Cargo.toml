@@ -1,0 +1,9 @@
+[package]
+name = "hello-roboplc"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+roboplc = { version = "^0.6.1", default-features = false, features = ["locking-rt-safe"] }
+rtsc = "0.3"
+tracing = { version = "0.1", features = ["log"] }

@@ -1,0 +1,9 @@
+[remote]
+url = 'docker://hello-roboplc'
+
+[build]
+target = 'aarch64-unknown-linux-gnu'
+
+[x]
+
+[build-custom]
